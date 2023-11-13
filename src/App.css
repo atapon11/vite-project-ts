@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Header styles */
+h1 {
+  color: #181616;
+  text-align: center;
+}
+
+/* Form styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #866e6e;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
